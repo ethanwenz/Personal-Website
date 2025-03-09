@@ -1,3 +1,5 @@
+remote_theme: pages-themes/modernist@v0.2.0
+
 layout: sidebar
 style: light
 
@@ -5,6 +7,7 @@ plugins:
   - jekyll-octicons
   - jekyll-github-metadata
   - jemoji
+  - jekyll-remote-theme
 
 permalink: /:year/:month/:day/:title/
 
